@@ -1,0 +1,120 @@
+/* CSS untuk body atau bagian latar belakang dan font */
+
+body {
+    background-image: url('image3.jpg');
+    /* Mengatur gambar latar belakang */
+    background-size: cover;
+    /* Mengatur ukuran gambar agar menutupi seluruh area */
+    background-repeat: no-repeat;
+    /* Mencegah gambar latar belakang diulang */
+    font-family: Arial, sans-serif;
+    /* Mengatur font untuk seluruh halaman */
+}
+
+
+/* CSS untuk container yang berisi tabel */
+
+.container {
+    position: relative;
+    /* Menjadikan container sebagai referensi posisi */
+}
+
+
+/* CSS untuk tabel */
+
+table {
+    border-collapse: collapse;
+    /* Menghilangkan jarak antar sel */
+    margin: 50px auto;
+    /* Menengahkan tabel */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Warna putih transparan */
+    border-radius: 10px;
+    /* Membuat sudut tabel melengkung */
+    overflow: hidden;
+    /* Mengatur overflow agar konten di dalam tabel tidak terlihat di luar border */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* Shadow untuk efek 3D */
+    z-index: 1;
+    /* Mengatur stacking order */
+    position: relative;
+    /* Menjadikan posisi tabel sebagai referensi */
+}
+
+
+/* CSS untuk header kolom tabel */
+
+th {
+    background-color: #FF6F61;
+    /* Warna merah */
+    color: #fff;
+    /* Warna teks putih */
+    padding: 15px;
+    /* Padding untuk memberikan ruang di dalam sel */
+}
+
+
+/* CSS untuk efek hover pada baris tabel */
+
+.water:hover,
+.grass:hover,
+.fire:hover {
+    background-color: #A9D6E5;
+    /* Warna biru muda saat hover */
+}
+
+
+/* CSS untuk judul tabel */
+
+.title {
+    border: 1px;
+    /* Ketebalan border */
+    border-color: rgb(255, 255, 255);
+    /* Warna border */
+    border-style: solid;
+    /* Gaya border */
+}
+
+
+/* CSS untuk sel data dalam tabel */
+
+td {
+    padding: 15px;
+    /* Padding untuk memberikan ruang di dalam sel */
+    text-align: center;
+    /* Posisi teks di dalam sel (tengah) */
+    color: #333;
+    /* Warna teks */
+    font-weight: bold;
+    /* Ketebalan teks */
+}
+
+
+/* CSS untuk header baris tabel */
+
+thead {
+    background-color: #4AADD6;
+    /* Warna biru */
+    color: #fff;
+    /* Warna teks putih */
+}
+
+
+/* CSS untuk baris genap pada tabel */
+
+tbody tr:nth-child(even) {
+    background-color: #F5F5F5;
+    /* Warna abu-abu muda untuk baris genap */
+}
+
+
+/* CSS untuk gambar dalam tabel */
+
+img {
+    max-width: 170px;
+    /* Lebar maksimum gambar */
+    max-height: 170px;
+    /* Tinggi maksimum gambar */
+    border-radius: 50%;
+    /* Membuat gambar menjadi bulat */
+}
